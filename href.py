@@ -33,7 +33,7 @@ cleaned = list(filter(reg.search, raw))
 # ["https://ipfs.pollinations.ai/" + str(x) for x in cleaned]
 full_url = [f'https://ipfs.pollinations.ai/{i}' for i in cleaned]
 
-# print(fullURL)
+# print(full_url)
 
 # write links to list
 with open('links.txt', 'w') as f:
