@@ -6,6 +6,6 @@ a python script for parsing HTML and saving JPEGs
 script takes two arguments:<br>
 * the output page url
 * a unique name for a directory where images are saved
-  * can be a non-existent directory … script will create it if it doesn't exist.<br>
+  * can be a non-existent directory … script will create it if it doesn't exist<br>
 <br>
 `$ python3 href.py [url] [image_directory_name]`
